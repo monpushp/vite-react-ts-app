@@ -12,7 +12,7 @@ interface Props {
   renderItem?: (item: QuestionData) => JSX.Element;
 }
 
-export const QuestionList = ({ data, renderItem }: Props) => (
+export const QuestionList: React.FC<Props> = ({ data, renderItem }: Props) => (
   <ul
     css={css`
       list-style: none;
