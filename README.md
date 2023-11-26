@@ -1,9 +1,13 @@
 # React + TypeScript + Vite
 
-- Created Using
-
+- Created Using on 2023/11/26 by PK
 ```bash
 npm create vite@latest vite-react-ts-app --template react-ts
+```
+
+- Added below dependencies on 2023/11/26 by PK
+```bash
+npm i @emotion/styled @emotion/react
 ```
 
 ## Below is standard scaffolded content of README.md 
