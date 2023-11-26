@@ -1,6 +1,8 @@
 import React from 'react';
 import { Page } from './Page';
+import { useParams } from 'react-router-dom';
 
 export const QuestionPage: React.FC = () => {
-    return <Page title='Question Page'>{ null }</Page>
+    const { questionId } = useParams();
+    return <Page>Question Page { questionId }</Page>
 }
