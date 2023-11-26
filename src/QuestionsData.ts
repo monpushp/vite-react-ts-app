@@ -61,6 +61,14 @@ export const getQuestion = async (
   return results.length === 0 ? null : results[0];
 };
 
+export const searchQuestions = async (criteria: string) => {
+  await wait(500);
+  return questions.filter(q => (
+    q.title.toLowerCase().indexOf(criteria.toLowerCase()) >= 0 ||
+    q.content.toLowerCase().indexOf(criteria.toLowerCase()) >= 0
+  ))
+};
+
 const wait = async (ms: number): Promise<void> => {
   return new Promise((resolve) => setTimeout(resolve, ms));
 };
