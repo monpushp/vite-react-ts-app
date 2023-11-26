@@ -1,5 +1,13 @@
 # React + TypeScript + Vite
 
+- Created Using
+
+```bash
+npm create vite@latest vite-react-ts-app --template react-ts
+```
+
+## Below is standard scaffolded content of README.md 
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
