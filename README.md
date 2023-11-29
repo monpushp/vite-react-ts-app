@@ -11,3 +11,8 @@ npm i @emotion/styled @emotion/react
 npm i react-router-dom
 npm i history
 ```
+
+- Added below dependencies on 2023/11/29 by PK
+```bash
+npm i react-hook-form
+```
